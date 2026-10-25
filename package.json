@@ -1,0 +1,10 @@
+{
+  "name": "relay-stack-2027",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "test": "node tests/verify-levels.mjs"
+  }
+}
